@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #caf4ff;
+}
+
+#titulo {
+  font-family: "Rubik Mono One", monospace;
+  color: #da7297;
+  font-size: 50px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: #da7297;
+}
+
+#guess-input {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px;
+  font-size: 18px;
+  width: 250px;
+  border: 1px solid #ee8fcb;
+}
+
+#guess-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #ff4191;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.letter {
+  border: 2px solid rgb(240, 161, 234);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 3px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.input-area {
+  margin: 30px;
+}
